@@ -10,6 +10,7 @@ layout: default
       </div>
       <div id="particles-js"></div>
 	  <script src="js/particles.js"></script>
+	  <script src="js/app.js"></script>
     </div>
 
     <div class="index-content">
