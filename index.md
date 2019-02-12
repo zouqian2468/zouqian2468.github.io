@@ -9,6 +9,7 @@ layout: default
         <h1>胖小婷的骞宝宝</h1>
       </div>
       <div id="particles-js"></div>
+	  <script src="js/particles.js"></script>
     </div>
 
     <div class="index-content">
