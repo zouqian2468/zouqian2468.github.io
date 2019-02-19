@@ -10,15 +10,15 @@ description: 在学习模型中，常常会出现过拟合的现象，通常可�
 $$ J(w)=Loss(x,w)+\lambda Complexity(w) $$
 
 比如在逻辑回归中，通常在目标函数（经验风险）中添加一个正则项
-$ \Phi(w) $
+$$ \Phi(w) $$
 ,即：
 
 $$ J(w)=-\frac{1}{m}[\sum_{i=1}^{m}y_{i}logh_{w}(x_{i})+(1-y_{i})log(i-h_{w}(x_{i}))]+\lambda \Phi (w) $$
 
 这个正则化项一般采用L1范数或者L2范数，其形式为
-$ \Phi (w)=\left \| w \right \|_{1} $
+$$ \Phi (w)=\left \| w \right \|_{1} $$
 和
-$ \Phi (w)=\left \| w \right \|_{2}^{2} $
+$$ \Phi (w)=\left \| w \right \|_{2}^{2} $$
 ,以L2正则项为例，
 
 $$ L_{2}\,  regularization\, term =\left \| w \right \|_{2}^{2}=w_{1}^{2}+w_{2}^{2}+\cdots +w_{n}^{2} $$
@@ -29,15 +29,15 @@ $$ L_{2}\,  regularization\, term =\left \| w \right \|_{2}^{2}=w_{1}^{2}+w_{2}^
 * 贝叶斯先验概率：权重应以0为中心，并呈正态分布
 
 上文中的标量
-$ \lambda $
+$$ \lambda $$
 是正则化率，用来调整正则化项的整体影响，平衡模型简单化和训练数据的拟合，增大
-$ \lambda $
+$$ \lambda $$
 将增强正则化项的效果，但过高的
-$ \lambda $
+$$ \lambda $$
 会导致欠拟合风险，
-$ \lambda $
+$$ \lambda $$
 时可以取消正则化。
 
 注意：较低的学习速率通常会产生和强
-$ \lambda $
+$$ \lambda $$
 类似的效果，但是不建议同时调整两个参数。
