@@ -6,7 +6,7 @@ layout: default
   <div class="index-wrapper">
     <div class="aside">
       <div class="info-card">
-        <h1>胖小婷的骞宝宝</h1>
+        <h1>邹骞的空间</h1>
       </div>
       <div id="particles-js"></div>
 	  <script src="js/particles.js"></script>
